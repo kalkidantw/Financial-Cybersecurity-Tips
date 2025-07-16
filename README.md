@@ -50,5 +50,3 @@ It delivers 5 core sections of cybersecurity tips to help users protect their fi
 - Implement **secure hosting** via GitHub Pages or Netlify.
 - Include **accessibility enhancements** (e.g., ARIA labels, keyboard navigation support).
 
-## 📝 Project Structure
-
