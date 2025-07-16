@@ -1,0 +1,87 @@
+* {                                     
+    margin: 0;                             /* remove default margins */
+    padding: 0;                            /* remove default padding */
+    box-sizing: border-box;               /* include border/padding in element size */
+  }
+  
+  body {
+    background-color: #EBEBEB;            /* light gray background */
+    color: #1E1E1E;                          /* dark text for readability */
+    line-height: 1.6;                     /* space between lines */
+    padding: 20px;                        /* space around page content */
+    font-size: 18pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+  }
+  
+  header {
+    background-color: #FFFFFF;            /* primary yellow */
+    color: #1E1E1E;                         /* white text */
+    padding: 30px 20px;                   /* space inside header */
+    text-align: center;                   /* center-align text */
+    border-radius: 6px;                   /* rounded corners */
+    margin-bottom: 30px;                  /* space below header */
+  }
+  
+  header h1 {
+    font-size: 70pt;                    /* larger heading */
+    margin-bottom: 10px;                  /* space below h1 */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  
+  header h2 {
+    font-size: 38pt;                    /* smaller subheading */
+    font-weight: normal;                  /* don't bold it */
+    color: #1E1E1E;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+  }
+  
+  main {
+    max-width: 1300px;                     /* limit width */
+    margin: auto;                         /* center on page */
+  }
+  
+  .security-tips {
+    background-color: white;              /* white section background */
+    padding: 20px;                        /* space inside section */
+    margin-bottom: 20px;                  /* space below section */
+    border-left: 6px solid #FFCC00;       /* colored left border */
+    border-radius: 4px;                   /* rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* subtle shadow */
+  }
+  
+  .security-tips h3 {
+    color: #FFCC00;                       /* blue heading */
+    margin-bottom: 10px;                  /* space below heading */
+    font-size: 18pt;                    /* medium heading size */
+  }
+  
+  .security-tips p {
+    margin-bottom: 15px;                  /* space below paragraph */
+  }
+  
+  .security-tips ul {
+    padding-left: 20px;                   /* indent bullets */
+    margin-bottom: 10px;                  /* space below list */
+  }
+  
+  .security-tips ul li {
+    margin-bottom: 8px;                   /* space between list items */
+  }
+  
+  .security-tips p strong,
+  .security-tips li strong {
+    color: #cc0000;                       /* red for emphasis */
+  }
+  
+  .security-tips p,
+  .security-tips li {
+    font-style: normal;                   /* reset italics */
+  }
+  
+  .security-tips p em,
+  .security-tips li em {
+    font-style: italic;                   /* italicize emphasis */
+  }
+  
